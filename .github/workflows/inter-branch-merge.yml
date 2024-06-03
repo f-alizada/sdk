@@ -13,6 +13,5 @@ jobs:
     uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@release/8.0
     with:
       repository_name: 'sdk'
-      repository_owner: 'f-alizada'
       base_branch: 'release-branch-1'
       head_branch: 'release-branch-2'
