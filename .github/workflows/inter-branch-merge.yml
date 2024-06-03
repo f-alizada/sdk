@@ -1,0 +1,15 @@
+name: POC Inter-branch merge
+on: [push]
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  check-script:
+    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@release/8.0
+    with:
+      repository_name: 'sdk'
+      repository_owner: 'f-alizada'
+      base_branch: 'release-branch-1'
+      head_branch: 'release-branch-2'
