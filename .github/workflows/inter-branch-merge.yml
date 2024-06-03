@@ -1,17 +1,15 @@
-name: POC Inter-branch merge
+name: Usage of Inter-branch merge workflow
 on:
   push:
     branches:
       - release-branch-2
 permissions:
   contents: write
-  issues: write
   pull-requests: write
 
 jobs:
   check-script:
     uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@release/8.0
     with:
-      repository_name: 'sdk'
       base_branch: 'release-branch-1'
       head_branch: 'release-branch-2'
