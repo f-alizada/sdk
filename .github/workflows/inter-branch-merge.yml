@@ -12,3 +12,5 @@ jobs:
     uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@release/8.0
     with:
       base_branch: 'release-branch-1'
+      allowAutomatedCommits: true
+      quietComments: false
