@@ -5,3 +5,4 @@ test-workflow-4
 test-workflow-5
 test-workflow-6
 test-workflow-7
+test-workflow-8
