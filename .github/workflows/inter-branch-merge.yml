@@ -9,9 +9,9 @@ permissions:
 
 jobs:
   check-script:
-    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@release/8.0
+    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@dev/f-alizada/branch-merge-workflow
     with:
       base_branch: 'release-branch-1'
       allowAutomatedCommits: false
       quietComments: true
-      script_version: 'release/8.0'
+      script_version: 'dev/f-alizada/branch-merge-workflow'
