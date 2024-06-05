@@ -13,5 +13,5 @@ jobs:
     with:
       base_branch: 'release-branch-1'
       allowAutomatedCommits: false
-      quietComments: true
+      quietComments: false
       script_version: 'dev/f-alizada/branch-merge-workflow'
