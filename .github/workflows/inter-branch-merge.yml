@@ -14,3 +14,4 @@ jobs:
       base_branch: 'release-branch-1'
       allowAutomatedCommits: false
       quietComments: true
+      script_version: 'release/8.0'
