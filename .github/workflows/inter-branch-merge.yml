@@ -2,7 +2,7 @@ name: Usage of Inter-branch merge workflow
 on:
   push:
     branches:
-      - release/8.0.3xx
+      - release/8.0.4xx
 permissions:
   contents: write
   pull-requests: write
@@ -11,7 +11,7 @@ jobs:
   check-script:
     uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@dev/f-alizada/branch-merge-workflow
     with:
-      base_branch: 'release/8.0.4xx'
+      base_branch: 'main'
       allowAutomatedCommits: false
       quietComments: true
       script_version: 'dev/f-alizada/branch-merge-workflow'
