@@ -9,9 +9,8 @@ permissions:
 
 jobs:
   check-script:
-    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@dev/f-alizada/branch-merge-workflow
+    uses: dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main
     with:
       base_branch: 'main'
       allowAutomatedCommits: false
       quietComments: true
-      script_version: 'dev/f-alizada/branch-merge-workflow'
