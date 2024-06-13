@@ -7,7 +7,7 @@ permissions:
 
 jobs:
   check-script:
-    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@dev/f-alizada/read-configs-from-file
+    uses: f-alizada/arcade/.github/workflows/inter-branch-merge-base.yml@34d0a5ba5196c9af620db651fb0967844a221ecb
     with:
-      script_version: 'dev/f-alizada/read-configs-from-file'
+      script_version: '34d0a5ba5196c9af620db651fb0967844a221ecb'
       configuration_file_path: '.config/merge-flow.json'
